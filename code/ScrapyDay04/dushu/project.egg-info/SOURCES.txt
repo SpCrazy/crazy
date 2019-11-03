@@ -1,0 +1,13 @@
+setup.py
+dushu/__init__.py
+dushu/items.py
+dushu/middlewares.py
+dushu/pipelines.py
+dushu/settings.py
+dushu/spiders/__init__.py
+dushu/spiders/ds.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

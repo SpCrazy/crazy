@@ -1,0 +1,7 @@
+{% macro my_macro(things) %}
+    <ul>
+        {% for thing in things %}
+            <li>{{ thing }}</li>
+        {% endfor %}
+    </ul>
+{% endmacro %}

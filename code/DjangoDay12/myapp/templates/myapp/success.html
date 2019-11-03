@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录成功</title>
+</head>
+<body>
+    {% if request.session.username %}
+        <h3>恭喜<span style="color: red">{{ request.session.username }}</span>登录成功！</h3>
+    {% else %}
+        你还未登录，请先<a href="{% url 'myapp:log' %}" >登录
+    {% endif %}
+</body>
+</html>

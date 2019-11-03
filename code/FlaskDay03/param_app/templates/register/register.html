@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<body>
+    <form action="{{ url_for('myblue.register_view') }}" method="post">
+        姓名：<input type="text" name="name"><br />
+        年龄：<input type="text" name="age"><br/>
+        爱好：读书<input type="checkbox" name="hobby" value="read"> &nbsp;&nbsp;&nbsp;&nbsp;
+                音乐<input type="checkbox" name="hobby" value="music"> &nbsp;&nbsp;&nbsp;&nbsp;
+            美食<input type="checkbox" name="hobby" value="food"> <br />
+          <input type="submit" value="提交">
+    </form>
+</body>
+</html>

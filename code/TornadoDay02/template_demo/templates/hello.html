@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+    <h4>显示普通字符串{{ s }}</h4>
+    <ul>
+        {% for fruit in fruits %}
+            <li>{{ fruit }}</li>
+        {% end %}
+    </ul>
+    <h4>通过字典的key获取value：{{ mydict["name"] }}</h4>
+    <h4>通过字典的key获取value：{{ mydict["age"] }}</h4>
+    <h4>直接显示danger（转义）：{{ danger }}</h4>
+    <h4>直接显示danger（未转义）：{% raw danger %}</h4>
+</body>
+</html>

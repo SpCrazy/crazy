@@ -6,8 +6,6 @@
 # @Desc  :查找文件并复制
 import os
 
-import fire
-
 
 def get_file(path, file_path_list):
     if not os.path.exists(path):
@@ -59,4 +57,3 @@ if __name__ == '__main__':
     file_path_list = []
     save_path = r"F:\gitcode\xmind"
     run(path, file_path_list, save_path)
-

@@ -1,4 +1,4 @@
-django==2.0.6
+django==2.0.12
 mysqlclient==1.4.2.post1
 django-redis==4.10.0
 django-redis-cache==2.0.0
